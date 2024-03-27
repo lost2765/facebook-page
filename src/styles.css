@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.facebook {
+  margin-top: 7rem;
+}
+.facebook .allContent {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.facebook .allContent .left {
+  width: 500px;
+  text-align: left;
+  position: relative;
+}
+.facebook .allContent .left .text h2 {
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 32px;
+  width: 500px;
+  text-align: left;
+}
+.facebook .allContent .left .imgLeft {
+  width: 300px;
+  left: -4%;
+  position: relative;
+}
+.facebook .allContent img {
+  width: 100%;
+}
+.facebook .allContent .right {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  align-items: center;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin: 40px 0 0;
+  padding: 20px 0 30px;
+  width: 400px;
+}
+.facebook .allContent .right .inputForm input {
+  width: 100%;
+  font-size: 17px;
+  padding: 14px 16px;
+  width: 330px;
+  outline: none;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  border: 1px solid #eee;
+}
+.facebook .allContent .right .inputForm .btnBottom {
+  background-color: #0866ff;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 16px;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+  width: 330px;
+  margin-left: 40px;
+}
+.facebook .allContent .right .inputForm .btnBottom:hover {
+  background: #1971ff;
+}
+.facebook .allContent .right .inputForm .btnBottom a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+.facebook .allContent .right .inputForm .forgot {
+  margin-top: 1rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 2rem;
+  width: 80%;
+  margin-left: 40px;
+}
+.facebook .allContent .right .inputForm .forgot a {
+  text-decoration: none;
+  color: #0866ff;
+  font-size: 17px;
+  transition: 0.4s;
+}
+.facebook .allContent .right .inputForm .forgot a:hover {
+  border-bottom: 1px solid #0866ff;
+}
+.facebook .allContent .right .inputForm .newAccount {
+  margin-top: 2rem;
+}
+.facebook .allContent .right .inputForm .newAccount a {
+  text-decoration: none;
+  color: #fff;
+  background: #42b72a;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  line-height: 48px;
+  padding: 0 16px;
+  padding: 15px 10px;
+  transition: 0.4s;
+}
+.facebook .allContent .right .inputForm .newAccount a:hover {
+  background: #288f14;
+}
+.facebook .allContent .right .inputForm .regPages {
+  margin-top: 2rem;
+}
+.facebook .allContent .right .inputForm .regPages a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #000;
+}
+.facebook .allContent .right .inputForm .regPages a:hover {
+  border-bottom: 1px solid #000;
+}/*# sourceMappingURL=styles.css.map */
